@@ -1,3 +1,6 @@
+#TODO:
+#  - remove this plugin from squirrelmail.spec
+#
 %define		_plugin	change_pass
 %define		_plugin_version 2.7
 %define		_squirrel_version_required 1.4.x
