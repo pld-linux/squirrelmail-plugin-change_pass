@@ -20,6 +20,7 @@ URL:		http://www.squirrelmail.org/
 Requires:	squirrelmail >= 1.4.0
 Requires:	poppassd
 Obsoletes:	squirrelmail-change_pass
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_squirreldir	%{_datadir}/squirrelmail
