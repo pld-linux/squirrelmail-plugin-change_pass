@@ -28,7 +28,8 @@ This package contains a interface to change passwords using poppassd
 protocol.
 
 %description -l pl
-Ten pakiet zawiera interfejs do zmiany hase³ poprzez protokó³ poppassd.
+Ten pakiet zawiera interfejs do zmiany hase³ poprzez protokó³
+poppassd.
 
 %prep
 %setup -q -n %{_plugin}
