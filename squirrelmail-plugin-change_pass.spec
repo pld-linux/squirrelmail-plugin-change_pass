@@ -15,7 +15,7 @@ Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{_version_tgz}.tar.gz
 # Source0-md5:	590e0b3e879bffdb4dea57d369618353
 URL:		http://www.squirrelmail.org/
-Requires:	squirrelmail >= 1.4.0
+Requires:	squirrelmail >= 1.4.6-2
 Requires:	poppassd
 Obsoletes:	squirrelmail-change_pass
 BuildArch:	noarch
