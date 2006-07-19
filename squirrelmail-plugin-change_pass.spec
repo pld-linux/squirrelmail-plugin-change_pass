@@ -1,10 +1,8 @@
-#
 %define		_plugin	change_pass
 %define		_plugin_version 2.7
 %define		_squirrel_version_required 1.4.x
 %define		_version_rpm %{_plugin_version}_%{_squirrel_version_required}
 %define		_version_tgz %{_plugin_version}-%{_squirrel_version_required}
-
 Summary:	A squirrel interface to change passwords
 Summary(pl):	Wiewiórczy interfejs do zmiany hase³
 Name:		squirrelmail-plugin-%{_plugin}
@@ -14,7 +12,7 @@ License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{_version_tgz}.tar.gz
 # Source0-md5:	590e0b3e879bffdb4dea57d369618353
-URL:		http://www.squirrelmail.org/
+URL:		http://www.squirrelmail.org/plugin_view.php?id=21
 Requires:	squirrelmail >= 1.4.6-2
 Requires:	poppassd
 Obsoletes:	squirrelmail-change_pass
