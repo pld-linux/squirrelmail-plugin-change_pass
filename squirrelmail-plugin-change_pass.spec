@@ -4,7 +4,7 @@
 %define		_version_rpm %{_plugin_version}_%{_squirrel_version_required}
 %define		_version_tgz %{_plugin_version}-%{_squirrel_version_required}
 Summary:	A squirrel interface to change passwords
-Summary(pl):	WiewiÛrczy interfejs do zmiany hase≥
+Summary(pl.UTF-8):   Wiewi√≥rczy interfejs do zmiany hase≈Ç
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	%{_plugin_version}_%{_squirrel_version_required}
 Release:	1
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains a interface to change passwords using poppassd
 protocol.
 
-%description -l pl
-Ten pakiet zawiera interfejs do zmiany hase≥ poprzez protokÛ≥
+%description -l pl.UTF-8
+Ten pakiet zawiera interfejs do zmiany hase≈Ç poprzez protok√≥≈Ç
 poppassd.
 
 %prep
